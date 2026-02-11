@@ -1,0 +1,11 @@
+.row{
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.links a{ 
+    text-decoration: none;
+}
+.links{
+    margin-top: 20px;
+    
+}

@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom"
+      class="navbar navbar-expand-lg border-bottom sticky-top"
       style={{ backgroundColor: "#fff" }}
     >
       <div class="container p-2">

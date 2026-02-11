@@ -3,7 +3,7 @@ import "./Stats.css";
 function Stats() {
   return (
     <div className="container p-5 mt-5 ms-3">
-      <div className="row ">
+      <div className="row align-items-center">
         <div className="col-6">
           <h2 className="mb-5 fs-3">Trust with confidence</h2>
           <h3 className="mb-2 fs-5">Customer-first always</h3>
@@ -34,7 +34,6 @@ function Stats() {
           <img
             src="/images/ecosystem.png"
             alt="Ecosystem"
-            // className="img-fluid"
             style={{width:"100%"}}
           />
           <div className="d-flex gap-5 mx-5 ps- links">

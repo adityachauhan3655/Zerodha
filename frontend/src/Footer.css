@@ -1,0 +1,13 @@
+footer a{
+    display: flex;
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+}
+
+.socialmedia p{
+        display: inline-block;
+    margin-right: 13px;
+    font-size: 20px;
+}
+

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav
@@ -5,9 +7,9 @@ function Navbar() {
       style={{ backgroundColor: "#fff" }}
     >
       <div class="container p-2">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img src="/images/logo.svg" alt="logo" style={{ width: "23%" }} />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,34 +25,34 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
+                <Link class="nav-link " aria-current="page" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/products">
                   Products
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="">
                   <i class="fa-solid fa-bars"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </form>

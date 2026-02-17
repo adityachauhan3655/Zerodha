@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="border-top  mt-5" style={{ backgroundColor: "#fbfbfb" }}>
       <div className="container mt-5 ">
-        <div className="row mt-5">
+        <div className="row p-0 mt-5">
           <div className="col">
             <img src="images/logo.svg" alt="logo" style={{ width: "60%", marginBottom:"20px" }} />
             <p style={{ fontSize: "12px" }}>
@@ -83,7 +83,7 @@ function Footer() {
             <a href="/">Sectors</a> <br />
           </div>
         </div>
-        <div className="mt-5 text-muted" style={{ fontSize: "11px" }}>
+        <div className="mt-5 text-muted footertext" style={{ fontSize: "11px" }}>
           <p>
             Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
             no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha

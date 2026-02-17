@@ -1,5 +1,7 @@
 function Universe() {
-    return ( <div><h1>Universe</h1></div> );
+    return (<div>
+        
+    </div> );
 }
 
 export default Universe;

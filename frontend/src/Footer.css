@@ -1,13 +1,17 @@
-footer a{
-    display: flex;
-    text-decoration: none;
-    color: #666666;
-    font-size: 14px;
+footer a {
+  display: flex;
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
 }
 
-.socialmedia p{
-        display: inline-block;
-    margin-right: 13px;
-    font-size: 20px;
+.socialmedia p {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 20px;
 }
 
+.footertext p {
+  font-size: 10.5px;
+  color: #9b9b9b !important;
+}
